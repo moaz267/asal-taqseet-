@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { HowItWorksPage } from "@/components/inner-pages";
+export const Route = createFileRoute("/how-it-works")({ head: () => ({ meta: [{ title: "كيف نعمل؟ | سلعة" }, { name: "description", content: "تعرف على مراحل طلب السلعة ودراستها وشرائها وبيعها بالتقسيط." }, { property: "og:title", content: "كيف نعمل؟ | سلعة" }, { property: "og:description", content: "ست مراحل واضحة قبل إتمام البيع بالتقسيط." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: HowItWorksPage });

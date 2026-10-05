@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { ShariaPage } from "@/components/inner-pages";
+export const Route = createFileRoute("/sharia-guidelines")({ head: () => ({ meta: [{ title: "الضوابط الشرعية | سلعة" }, { name: "description", content: "فهم مسار توفير السلعة وبيعها بالتقسيط وفق ضوابط واضحة." }, { property: "og:title", content: "الضوابط الشرعية | سلعة" }, { property: "og:description", content: "الخدمة قائمة على توفير سلعة وبيعها بالتقسيط، وليست تمويلًا نقديًا." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: ShariaPage });

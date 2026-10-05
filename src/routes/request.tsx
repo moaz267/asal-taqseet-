@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { RequestPage } from "@/components/inner-pages";
+export const Route = createFileRoute("/request")({ head: () => ({ meta: [{ title: "اطلب سلعتك | سلعة" }, { name: "description", content: "أرسل تفاصيل السلعة والموديل والمدة المطلوبة للمراجعة." }, { property: "og:title", content: "اطلب سلعتك | سلعة" }, { property: "og:description", content: "ابدأ طلب سلعتك في أربع خطوات واضحة." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: RequestPage });

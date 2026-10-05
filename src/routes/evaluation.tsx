@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { EvaluationPage } from "@/components/inner-pages";
+export const Route = createFileRoute("/evaluation")({ head: () => ({ meta: [{ title: "كيف يتم التقييم؟ | سلعة" }, { name: "description", content: "كل طلب يخضع لنظام تقييم موحد قبل إتمام العملية." }, { property: "og:title", content: "كيف يتم التقييم؟ | سلعة" }, { property: "og:description", content: "تعرف على مراحل مراجعة طلب السلعة." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: EvaluationPage });

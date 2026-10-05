@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { CustomerTermsPage } from "@/components/inner-pages";
+export const Route = createFileRoute("/customer-terms")({ head: () => ({ meta: [{ title: "شروط العميل | سلعة" }, { name: "description", content: "صفحة شروط العميل والمتطلبات المعتمدة لخدمة سلعة." }, { property: "og:title", content: "شروط العميل | سلعة" }, { property: "og:description", content: "تعرف على شروط العميل عند اعتمادها." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }), component: CustomerTermsPage });
