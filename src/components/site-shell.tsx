@@ -44,7 +44,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       </header>
       <main>{children}</main>
       <Footer />
-      <a href="https://wa.me/201067231442" target="_blank" rel="noreferrer" aria-label="تواصل عبر واتساب" className="whatsapp fixed bottom-5 left-4 z-40 flex min-h-12 items-center gap-2 rounded-full bg-whatsapp px-4 font-black text-whatsapp-foreground shadow-xl sm:left-6"><MessageCircle size={22} fill="currentColor" /><span className="hidden sm:inline">واتساب</span></a>
+      <a href="https://wa.me/201094440373" target="_blank" rel="noreferrer" aria-label="تواصل عبر واتساب" className="whatsapp fixed bottom-5 left-4 z-40 flex min-h-12 items-center gap-2 rounded-full bg-whatsapp px-4 font-black text-whatsapp-foreground shadow-xl sm:left-6"><MessageCircle size={22} fill="currentColor" /><span className="hidden sm:inline">واتساب</span></a>
     </div>
   );
 }
@@ -55,7 +55,7 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr]">
         <div><div className="font-display text-2xl font-black">سلعة<span className="text-primary">.</span></div><p className="mt-4 max-w-md text-sm leading-7 text-muted-foreground">خدمة لطلب السلعة التي تحتاجها وشرائها بالتقسيط وفق نظام بيع وضوابط واضحة.</p></div>
         <div><h2 className="font-display font-bold">صفحات الموقع</h2><div className="mt-4 grid gap-2 text-sm text-muted-foreground">{navigation.map((item) => <Link key={item.to} to={item.to} className="w-fit hover:text-primary">{item.label}</Link>)}</div></div>
-        <div><h2 className="font-display font-bold">تواصل واطلب</h2><div className="mt-4 grid gap-3 text-sm text-muted-foreground"><Link to="/request" className="w-fit hover:text-primary">اطلب سلعتك</Link><a dir="ltr" href="https://wa.me/201067231442" target="_blank" rel="noreferrer" className="w-fit hover:text-primary">01067231442</a><span>الشروط والأحكام — تُضاف لاحقًا</span><span>سياسة الخصوصية — تُضاف لاحقًا</span></div></div>
+        <div><h2 className="font-display font-bold">تواصل واطلب</h2><div className="mt-4 grid gap-3 text-sm text-muted-foreground"><Link to="/request" className="w-fit hover:text-primary">اطلب سلعتك</Link><a dir="ltr" href="https://wa.me/201094440373" target="_blank" rel="noreferrer" className="w-fit hover:text-primary">01094440373</a><span>الشروط والأحكام — تُضاف لاحقًا</span><span>سياسة الخصوصية — تُضاف لاحقًا</span></div></div>
       </div>
       <div className="mx-auto mt-12 max-w-7xl border-t border-border pt-6 text-center text-xs text-muted-foreground">سلعة — بيع بالتقسيط وفق نظام واضح</div>
     </footer>

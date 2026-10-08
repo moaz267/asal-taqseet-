@@ -541,7 +541,7 @@
 
 رقم WhatsApp:
 
-01067231442
+01094440373
 
 أنشئ Floating WhatsApp Button.
 
@@ -557,7 +557,7 @@
 
 عند الضغط عليه يفتح WhatsApp للتواصل مع الرقم:
 
-01067231442
+01094440373
 
 ---
 
@@ -910,7 +910,7 @@ Consistent Visual Identity
 3. كل CTA يعمل.
 4. Hero Slider يعمل.
 5. Slider يدعم Mobile Swipe.
-6. WhatsApp يعمل بالرقم 01067231442.
+6. WhatsApp يعمل بالرقم 01094440373.
 7. Scroll يبدأ من أعلى كل صفحة عند التنقل.
 8. Reload يبدأ من أعلى الصفحة.
 9. RTL يعمل بشكل صحيح.

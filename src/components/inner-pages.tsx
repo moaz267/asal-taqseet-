@@ -28,7 +28,7 @@ export function RequestPage() {
   const send = () => {
     if (step !== 3) return;
     const text = ["طلب سلعة جديد", "", ...Object.entries(summary).map(([k, v]) => `${k}: ${v}`)].join("\n");
-    window.open(`https://wa.me/201067231442?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
+    window.open(`https://wa.me/201094440373?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
     setSubmitted(true); window.scrollTo({ top: 0, behavior: "smooth" });
   };
   if (submitted) return <section className="grid min-h-[72vh] place-items-center px-4 py-20"><div className="max-w-xl text-center"><div className="success-mark mx-auto"><Check size={48} /></div><span className="eyebrow mt-8">وصلنا طلبك</span><h1 className="mt-5 font-display text-4xl font-black sm:text-6xl">تم استلام طلبك</h1><p className="mt-5 text-lg leading-8 text-muted-foreground">سنقوم بمراجعة البيانات والتواصل معك لاستكمال الإجراءات.</p><Button className="mt-8" onClick={() => { setData(emptyForm); setStep(0); setSubmitted(false); }}>إرسال طلب آخر</Button></div></section>;
