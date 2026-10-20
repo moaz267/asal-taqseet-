@@ -38,7 +38,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
         </div>
         <div className={open ? "mobile-menu open" : "mobile-menu"}>
           <nav className="space-y-1 px-4 pb-4" aria-label="التنقل على الهاتف">
-            {[...navigation, { to: "/request" as const, label: "اطلب سلعتك" }].map((item) => <Link key={item.to} to={item.to} className="block rounded-xl px-4 py-3 font-bold text-muted-foreground hover:bg-card hover:text-foreground">{item.label}</Link>)}
+            {[...navigation, { to: "/request" as const, label: "اطلب سلعتك" }].map((item) => <Link key={item.to} to={item.to} className="block rounded-xl px-4 py-3 mt-3 font-bold text-muted-foreground hover:bg-card hover:text-foreground">{item.label}</Link>)}
           </nav>
         </div>
       </header>
