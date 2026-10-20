@@ -37,7 +37,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
           </div>
         </div>
         <div className={open ? "mobile-menu open" : "mobile-menu"}>
-          <nav className="space-y-1 px-4 pb-5" aria-label="التنقل على الهاتف">
+          <nav className="space-y-1 px-4 pb-4" aria-label="التنقل على الهاتف">
             {[...navigation, { to: "/request" as const, label: "اطلب سلعتك" }].map((item) => <Link key={item.to} to={item.to} className="block rounded-xl px-4 py-3 font-bold text-muted-foreground hover:bg-card hover:text-foreground">{item.label}</Link>)}
           </nav>
         </div>
@@ -55,9 +55,9 @@ function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr]">
         <div><div className="font-display text-2xl font-black">سلعة<span className="text-primary">.</span></div><p className="mt-4 max-w-md text-sm leading-7 text-muted-foreground">خدمة لطلب السلعة التي تحتاجها وشرائها بالتقسيط وفق نظام بيع وضوابط واضحة.</p></div>
         <div><h2 className="font-display font-bold">صفحات الموقع</h2><div className="mt-4 grid gap-2 text-sm text-muted-foreground">{navigation.map((item) => <Link key={item.to} to={item.to} className="w-fit hover:text-primary">{item.label}</Link>)}</div></div>
-        <div><h2 className="font-display font-bold">تواصل واطلب</h2><div className="mt-4 grid gap-3 text-sm text-muted-foreground"><Link to="/request" className="w-fit hover:text-primary">اطلب سلعتك</Link><a dir="ltr" href="https://wa.me/201094440373" target="_blank" rel="noreferrer" className="w-fit hover:text-primary">01094440373</a><span>الشروط والأحكام — تُضاف لاحقًا</span><span>سياسة الخصوصية — تُضاف لاحقًا</span></div></div>
+        <div><h2 className="font-display font-bold">تواصل واطلب</h2><div className="mt-4 grid gap-3 text-sm text-muted-foreground"><Link to="/request" className="w-fit hover:text-primary">اطلب سلعتك</Link><a dir="ltr" href="https://wa.me/201094440373" target="_blank" rel="noreferrer" className="w-fit hover:text-primary">01094440373</a><span>تطبق الشروط والاحكام </span><span>Made By Moaz Elhenawy </span></div></div>
       </div>
-      <div className="mx-auto mt-12 max-w-7xl border-t border-border pt-6 text-center text-xs text-muted-foreground">سلعة — بيع بالتقسيط وفق نظام واضح</div>
+      <div className="mx-auto mt-12 max-w-7xl border-t border-border pt-6 text-center text-m text-muted-foreground">Made By Moaz Elhenawy  </div>
     </footer>
   );
 }
